@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "arial";
+    src: url("./assets/font/arial.ttf") format("truetype");
+}
+
+body {
+    font-family: "arial";
+}
+
+.ninetrees-description {
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.1rem;
+}
+
+.company-description {
+    color: rgba(0, 94, 93, 1);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 94, 93, 1);
+    color: white;
+    padding: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.padding-top {
+    padding-top: 40px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+    /* flex-basis: 100%; */
+}
+
+.btn {
+    align-self: baseline;
+}
+
+.btn-large {
+    background-color: white;
+    color: rgb(178, 168, 162)
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-logo {
+    width: 320px;
+}
+
+.mini:before {
+    content: "";
+    height: .15rem;
+    /* padding: 0 5px; */
+    vertical-align: .3rem;
+    width: 100%;
+    background: rgba(0, 94, 93, 1);
+    display: inline-block;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.company-logo {
+    width: 150px;
+}
+
+.phf-logo {
+    width: 70px;
+}
+
+.container-logo {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    padding: 5px 10px;
+    background-color: white;
+    color: rgb(0, 94, 93);
+    border: 1px solid rgba(0, 94, 93, 1);
+    width: 120px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button:hover {
+    background-color: rgba(0, 94, 93, 1);
+    color: white;
+    transition: ease-in;
+}
