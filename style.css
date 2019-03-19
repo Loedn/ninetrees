@@ -99,6 +99,7 @@ body {
     align-items: center;
     justify-content: space-around;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .flex {
@@ -111,4 +112,5 @@ body {
     background-color: rgba(0, 94, 93, 1);
     color: white;
     transition: ease-in;
+    text-decoration: none;
 }
